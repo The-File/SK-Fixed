@@ -5,7 +5,7 @@ To patch Java:
 1. Download the zip from https://jdk.java.net/19/
 2. Extract the jdk-19 folder
 3. Delete your old java_vm folder and replace it with jdk-19 renamed as java_vm.
-4. Most of the files inside Modified Files are actually to fix compatibility with latest java,
+4. Most of the files inside Modified Files are there to fix compatibility with latest java,
 so they are all necessary, except for projectx-pcode.jar.
 
 Changes for SK, if you use the provided projectx-pcode.jar file:
