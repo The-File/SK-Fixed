@@ -1,6 +1,5 @@
 # SK-Fixed
 Spiral Knights patched with bugfixes and tweaks.
-Modifications meant for Windows x64 only for now.
 
 To patch Java:
 1. Download the zip from https://jdk.java.net/19/
