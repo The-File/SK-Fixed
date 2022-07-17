@@ -1,6 +1,10 @@
 # SK-Fixed
 Spiral Knights patched with bugfixes and tweaks.
 
+NOTE: Only steam (Win x64) + standalone (Win x64) have been verified.
+Please open an issue for other platforms, except steam (linux x64).
+Known issue on Grey Haven's part with only 32 bit linux support for a JNI library.
+
 To patch Java:
 1. Download the zip from https://jdk.java.net/19/
 2. Extract the jdk-19 folder
