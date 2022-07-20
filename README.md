@@ -23,7 +23,7 @@ Changes for SK, if you use the provided projectx-pcode.jar file:
 
 1. Remove "jvmarg = -XX:+AggressiveOpts" from getdown.txt. It is an invalid unrecognized argument in more recent versions.
 See https://bugs.openjdk.org/browse/JDK-8150552
-2. Update the supporting JInput files to the latest versions found bundled with LWJGL 2.9.3. Specifically, jinput.jar and the related jinput native libs are different than what's currently shipped.
+2. Update the supporting OpenAL and JInput JNI files (.dll, .so, .dylib) to the latest versions found bundled with LWJGL 2.9.3. Additionally, the file jinput.jar under the code directory as well needs replacement.
 3. Remove references to the .JNIFILE version of an lwjgl native lib for the OSX build, and replace with references only to the .dylib version.
 See https://github.com/LWJGL/lwjgl/issues/100
 4. Specify "--add-opens=java.*****=ALL-UNNAMED" type arguments for every single internal JDK API used.
