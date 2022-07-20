@@ -22,8 +22,11 @@ Changes for SK, if you use the provided projectx-pcode.jar file:
 # For GH trying to fix Java 19 compatibility:
 
 1. Remove "jvmarg = -XX:+AggressiveOpts" from getdown.txt. It is an invalid unrecognized argument in more recent versions.
-2. Update LWJGL dlls to the latest 2.9.3 version.
-3. Specify "--add-opens=java.*****=ALL-UNNAMED" type arguments for every single internal JDK API used.
+See https://bugs.openjdk.org/browse/JDK-8150552
+2. Update LWJGL dlls to the latest 2.9.3 version. The currently shipped native libs are incompatible with Java 9+.
+3. Remove references to the .JNIFILE version of an lwjgl native lib for the OSX build, and replace with references only to the .dylib version.
+See https://github.com/LWJGL/lwjgl/issues/100
+4. Specify "--add-opens=java.*****=ALL-UNNAMED" type arguments for every single internal JDK API used.
 In Java 16+, due to JEP 261 (https://openjdk.org/jeps/261), strong encapsulation is enabled by default,
 and assumed internal JDK APIs are illegal to be utilized via reflection. You can manually break this still 
 via "--add-opens" or "--add-exports" commands.
