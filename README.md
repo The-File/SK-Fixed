@@ -10,7 +10,7 @@ To patch Java:
 3. Delete your old java_vm folder and replace it with jdk-19 renamed as java_vm.
 4. Select the folder for your OS, and overwrite in the according SK installation folder.
 
-Note: Stable Java 18 works as well.
+Note: Stable Java 18 works as well, via https://jdk.java.net/18/.
 
 # For GH trying to fix Java 19 compatibility:
 
