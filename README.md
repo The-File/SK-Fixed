@@ -1,5 +1,4 @@
-# SK-Fixed
-Spiral Knights patched with bugfixes and tweaks.
+#Spiral Knights patchset for Java 19.
 
 NOTE: Only steam (Win x64) + standalone (Win x64) have been verified.
 Please open an issue for other platforms, except steam (linux x64).
