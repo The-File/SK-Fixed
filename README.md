@@ -1,8 +1,7 @@
 # Spiral Knights patchset for Java 19.
 
 NOTE: Only steam (Win x64) + standalone (Win x64) have been verified.
-Please open an issue for other platforms, except steam (linux x64).
-Known issue on Grey Haven's part with only 32 bit linux support for a JNI library.
+Other platforms have been removed for now due to lackof testing and/or known issues on GH's part.
 
 To patch Java:
 1. Download the zip from https://jdk.java.net/19/
