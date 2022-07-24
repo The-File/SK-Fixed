@@ -4,16 +4,10 @@
 -Dappdir=%APPDIR%
 -Dresource_dir=%APPDIR%/rsrc
 -XX:+UseFMA
--XX:+UseParallelGC
 -Xmx3G
 -Xms256M
--XX:SurvivorRatio=1
--XX:NewRatio=1
--XX:NewSize=128M
--XX:GCTimeRatio=0
--XX:MinHeapFreeRatio=40
--XX:MaxHeapFreeRatio=100
 -XX:+UnlockExperimentalVMOptions
+-XX:+UseZGC
 --add-opens=java.base/java.lang=ALL-UNNAMED
 --add-opens=java.base/java.util=ALL-UNNAMED
 --add-opens=java.base/java.lang=ALL-UNNAMED
