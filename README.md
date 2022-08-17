@@ -1,7 +1,9 @@
-# Spiral Knights patchset for Java 19 (Uses use these steps).
+# Spiral Knights patchset for Java 19
 
 NOTE: Only steam (Win x64) + standalone (Win x64) have been verified.
 Other platforms have been removed for now due to lackof testing and/or known issues on GH's part.
+
+## Steps for users to follow:
 
 To patch Java:
 1. Download the zip from https://jdk.java.net/19/
