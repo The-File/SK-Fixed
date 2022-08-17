@@ -11,7 +11,7 @@ To patch Java:
 
 Note: Stable Java 18 works as well, via https://jdk.java.net/18/.
 
-# For GH trying to fix Java 19 compatibility:
+# For GH trying to fix Java 19 compatibility (Users ignore, meant for GH devs):
 
 1. Remove "jvmarg = -XX:+AggressiveOpts" from getdown.txt. It is an invalid unrecognized argument in more recent versions.
 See https://bugs.openjdk.org/browse/JDK-8150552
