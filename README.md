@@ -1,4 +1,4 @@
-# Spiral Knights patchset for Java 19
+# Spiral Knights patchset for Java 21
 
 NOTE: Only steam (Win x64) + standalone (Win x64) have been verified.
 Other platforms have been removed for now due to lackof testing and/or known issues on GH's part.
@@ -6,14 +6,14 @@ Other platforms have been removed for now due to lackof testing and/or known iss
 ## Steps for users to follow:
 
 To patch Java:
-1. Download the zip from https://jdk.java.net/19/
-2. Extract the jdk-19 folder
-3. Delete your old java_vm folder and replace it with jdk-19 renamed as java_vm.
+1. Download the zip from https://jdk.java.net/21/
+2. Extract the jdk-21 folder
+3. Delete your old java_vm folder and replace it with jdk-21 renamed as java_vm.
 4. Select the folder for your OS, and overwrite in the according SK installation folder.
 
-Note: Stable Java 18 works as well, via https://jdk.java.net/18/.
+Note: Stable Java 20 works as well, via https://jdk.java.net/20/.
 
-# For GH trying to fix Java 19 compatibility (Users ignore, meant for GH devs):
+# For GH trying to fix Java 21 compatibility (Users ignore, meant for GH devs):
 
 1. Remove "jvmarg = -XX:+AggressiveOpts" from getdown.txt. It is an invalid unrecognized argument in more recent versions.
 See https://bugs.openjdk.org/browse/JDK-8150552
