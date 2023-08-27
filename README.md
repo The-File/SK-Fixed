@@ -3,6 +3,12 @@
 NOTE: Only steam (Win x64) + standalone (Win x64) have been verified.
 Other platforms have been removed for now due to lackof testing and/or known issues on GH's part.
 
+## If the game does not boot on fresh windows 10/11 installs:
+
+### Specifically if you haven't tried these patches yet, and SK does not work out of the box at all with its default Java.
+
+### Install Java 6 from https://archive.org/details/jdk-6u45 before trying the Java 21 patchset.
+
 ## Steps for users to follow:
 
 To patch Java:
@@ -12,12 +18,6 @@ To patch Java:
 4. Select the folder for your OS, and overwrite in the according SK installation folder.
 
 Note: Stable Java 20 works as well, via https://jdk.java.net/20/.
-
-## Steps if the game does not boot on fresh windows 10/11 installs:
-
-### Specifically if you haven't tried these patches yet, and SK does not work out of the box at all with its default Java.
-
-### Install Java 6 from https://archive.org/details/jdk-6u45 before trying the Java 21 patchset.
 
 # For GH trying to fix Java 21 compatibility (Users ignore, meant for GH devs):
 
