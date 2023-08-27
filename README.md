@@ -25,7 +25,3 @@ In Java 16+, due to JEP 261 (https://openjdk.org/jeps/261), strong encapsulation
 and assumed internal JDK APIs are illegal to be utilized via reflection. You can manually break this still 
 via "--add-opens" or "--add-exports" commands.
 5. For linux, recompile libfroth to be 64 bit, and distribute updated steam_api libs.
-
-# Looking for the netcode tweaked Spiral Knights?
-
- This has been moved to https://github.com/The-File/SK-Tweaks
