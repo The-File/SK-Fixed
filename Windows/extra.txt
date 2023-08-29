@@ -1,8 +1,4 @@
--Djava.library.path=%APPDIR%/native
--Dorg.lwjgl.util.NoChecks=true
--Dsun.java2d.d3d=false
--Dappdir=%APPDIR%
--Dresource_dir=%APPDIR%/rsrc
+-XX:+IgnoreUnrecognizedVMOptions
 -XX:+UseFMA
 -XX:+UseParallelGC
 -Xmx3G
