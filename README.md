@@ -7,7 +7,7 @@ Other platforms have been removed for now due to lackof testing and/or known iss
 
 ### Specifically if you haven't tried these patches yet, and SK does not work out of the box at all with its default Java.
 
-### Install Java 6 from https://archive.org/details/jdk-6u45 before trying the Java 23 patchset.
+### Install Java 6 from https://archive.org/details/jdk-6u45-windows-x64 before trying the Java 23 patchset.
 
 ## Steps for users to follow:
 
